@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { supabase } from "./core/storage/supabase";
 import AuthPage from "./modules/auth/pages/loginPage";
 
+
 function App() {
   const [session, setSession] = useState<any>(null);
   const [loading, setLoading] = useState(true);
